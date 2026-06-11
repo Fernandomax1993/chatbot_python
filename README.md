@@ -1,4 +1,4 @@
-# ChatBot Python
+# Sistema de Suporte ao Cliente
 
 Projeto desenvolvido em Python com interface de terminal.
 
