@@ -7,7 +7,7 @@ def limpar_tela():
 def mostrar_opcoes():
     print("=== 🤖 ⚙️  🤖 ⚙️  🤖 ===\n")
 
-    print("\033[35mOlá! Eu sou o ChatBot.\033[0m\n")
+    print("\033[35mOlá! Eu sou o Sistema de Suporte ao Cliente.\033[0m\n")
 
     print("1 - Lista de Produtos")
     print("2 - Endereço")
@@ -42,19 +42,20 @@ def mostrar_endereco():
     print("\033[32mNosso endereço é Rua oratório, 123 - São Paulo.\033[0m")
 
 def mostrar_horario():
-    print("Funcionamos de segunda a sexta das 08h às 18h.")
+    print("\033[93mFuncionamos de segunda a sexta das 08h às 18h.\033[0m")
 
 def mostrar_atendente():
-    print("Um atendente entrará em contato em breve.")
+    print("\033[96mUm atendente entrará em contato em breve.\033[0m")
 
 def sair():
-     print("Obrigado por utilizar o ChatBot!")
+    print("\033[92mObrigado por utilizar o Sistema de Suporte ao Cliente!\033[0m")
 
 def op_invalida():
      print("\033[31m❌ OPÇÃO INVÁLIDA ❌\033[0m")
 
 def voltar_menu():
-    print("\n\033[94mVoltando ao menu...\033[0m\n")
+    print("\n\033[94mVoltando ao menu...\033[0m")
+    
 
 while True:
     
